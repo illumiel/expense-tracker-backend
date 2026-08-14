@@ -16,7 +16,9 @@ public class CorsConfig {
     // Single source of truth for CORS rules, shared by Spring Security and Spring MVC
     private CorsConfiguration buildConfiguration() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("http://localhost:3000"));
+        config.setAllowedOrigins(List.of(
+                "http://localhost:3000",
+                "https://pulseledger-mc.vercel.app"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
         // "*" covers Content-Type, Authorization (the JWT Bearer header) and
         // any other header the frontend sends
