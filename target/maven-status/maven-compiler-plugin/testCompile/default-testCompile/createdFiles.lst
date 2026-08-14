@@ -1,0 +1,3 @@
+com\expensetracker\CategoryDeleteIntegrationTest.class
+com\expensetracker\AuthIntegrationTest.class
+com\expensetracker\CorsIntegrationTest.class

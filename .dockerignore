@@ -1,0 +1,24 @@
+# Build artifacts
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Version control
+.git/
+.gitignore
+
+# Maven wrapper (not used in this project)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Logs and OS files
+*.log
+.DS_Store
+
+# Docker files (sent separately by Docker)
+Dockerfile
+.dockerignore
